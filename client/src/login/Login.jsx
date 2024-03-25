@@ -1,4 +1,8 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 function Login(){
+
     return (
         
         <div className="flex justify-center items-center h-screen w-screen">
@@ -22,7 +26,7 @@ function Login(){
                 <div className="flex flex-col justify-center items-center bg-blue-900 grow">
                 <h1 className="text-4xl text-white mt-40 ">Register</h1>
                 <p className="text-white p-3 mb-2">Don't have an account? Register now! </p>
-                <button  className="bg-white text-blue-900 p-2 w-64 mb-44 rounded-md font-semibold">Register on Account</button>
+                <Link to="/register"  className="bg-white text-blue-900 px-12 py-2 w-64 mb-44 rounded-md font-semibold">Register on Account</Link>
                 </div>
             </div>
             </div>
